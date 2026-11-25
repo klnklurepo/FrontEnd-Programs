@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grid - 5 Rows and 3 Columns</title>
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: repeat(5, 80px);
+            gap: 10px;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        .grid-item {
+            background-color: lightblue;
+            border: 2px solid blue;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>CSS Grid - 5 Rows and 3 Columns</h2>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+
+        <div class="grid-item">13</div>
+        <div class="grid-item">14</div>
+        <div class="grid-item">15</div>
+    </div>
+
+</body>
+</html>
